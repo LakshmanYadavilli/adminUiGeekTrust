@@ -6,6 +6,33 @@
   height: 40vmin;
   pointer-events: none;
 }
+.gridContainer {
+  border-bottom: 2px solid grey;
+
+  /* margin: 20px; */
+}
+.gridMain {
+  padding-top: 2rem;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(200, 150, 247);
+  /* background-color: rgb(246, 239, 239); */
+  margin: 0%;
+  /* margin-bottom: 50vh; */
+  z-index: 1;
+}
+.gridChild {
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+.search {
+  margin-bottom: 2rem;
+  width: 80%;
+  height: 2rem;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,0 +1,17 @@
+.editElementsContainer {
+  width: "60%";
+  padding: "20px";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.editElements {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* style={{
+    width: "60%",
+    padding: "10px",
+    height: "100%",
+  }} */

@@ -1,0 +1,21 @@
+.page {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid grey;
+  background-color: rgb(12, 191, 236);
+}
+.currentPage {
+  background-color: transparent;
+  border-color: rgb(12, 191, 236);
+}
+.footer {
+  position: fixed;
+  /* left: 0; */
+  bottom: 0%;
+  width: 100%;
+  background-color: rgb(240, 249, 247);
+  height: 3rem;
+  padding: 4px;
+  z-index: 1;
+}
